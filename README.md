@@ -13,7 +13,11 @@ the eventual extra spells you might get (as an array/list, with elements represe
 The result needs to be an object (associative array in PHP), as shown in the examples:
 
 charAttribute(0) === {modifier: 0, maximumSpellLevel: -1, extraSpells: []}
+
 charAttribute(1) === {modifier: -5, maximumSpellLevel: -1, extraSpells: []}
+
 charAttribute(5) === {modifier: -3, maximumSpellLevel: -1, extraSpells: []}
+
 charAttribute(10) === {modifier: 0, maximumSpellLevel: 0, extraSpells: []}
+
 charAttribute(20) === {modifier: +5, maximumSpellLevel: 9, extraSpells: [2,1,1,1,1]}
